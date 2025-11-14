@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "FiraGO", sans-serif;
+    color: #4E6FAE;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+header h1 {
+    color: #30CBC2;
+    font-size: 48px;
+}
+
+nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: #8D81FF;
+}
+
+nav a.active {
+    color: #4E6FAE;
+}
+
+.center {
+    margin: 60px auto;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.news-card {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0;
+    gap: 30px;
+}
+
+.news-card img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 40px 0;
+    margin-left: 60px; 
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.contact iframe {
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.contact {
+    margin-top: 60px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    background-color: #E7E7E7;
+    padding: 50px 80px;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.contact-info {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact-info h2 {
+    font-size: 36px;
+    color: #4E6FAE;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 20px;
+    color: #7E8898;
+    margin-bottom: 10px;
+}
+
+.map-container{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.map-container iframe {
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+}
+
+
+.section-title {
+    color: #4E6FAE;
+    font-size: 24px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    color: #7E8898;
+    font-size: 20px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.news-card {
+    background-color: #E7E7E7;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column; 
+}
+
+.news-card h2 {
+    color: #000;          
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;   
+}
+
+.news-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.news-body img {
+    width: 80px;          
+    height: 80px;
+    border-radius: 10px;
+    flex-shrink: 0;       
+}
+
+.news-body p {
+    font-family: 'Helvetica Neue LT GEO', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4E6FAE;
+}
+
+
+body.page-index .news-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+body.page-index .news-card {
+    background-color: #E7E7E7;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column; 
+}
+
+body.page-index .news-card h2 {
+    color: #000;          
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;   
+}
+
+body.page-index .news-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+body.page-index .news-body img {
+    width: 80px;          
+    height: 80px;
+    border-radius: 10px;
+    flex-shrink: 0;       
+}
+
+body.page-index .news-body p {
+    font-family: 'Helvetica Neue LT GEO', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4E6FAE;
+}
+
+body.page-news .news-card {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0;
+    gap: 30px;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+    box-shadow: none;
+    flex-direction: row;
+}
+
+body.page-news .news-card img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+body.page-news .news-card div {
+    flex: 1;
+}
+
+
+.diffrentfont{
+    font-family: 'Times New Roman', Times, serif;
+}
